@@ -1,3 +1,7 @@
 {
-  "cmd": "pip install --user tox"
+  "cmd": "pip install --user tox",
+  "docker": {
+    "cluster": "lambci-ecs-Cluster-GXKTMWXM4FF1",
+    "task": "lambci-ecs-BuildTask-1I1CTUUWTLENS"
+  }
 }
